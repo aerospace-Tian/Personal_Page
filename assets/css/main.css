@@ -1912,6 +1912,47 @@ input, select, textarea {
 				margin-left: 0;
 			}
 
+
+
+			.education-section {
+				margin-bottom: 20px;
+			}
+			
+			.education-item {
+				display: flex;
+				align-items: flex-start;
+				gap: 20px; /* Space between the logo and text */
+				padding: 10px;
+				border-bottom: 1px solid #ddd; /* Optional divider */
+			}
+			
+			.education-item .image img {
+				width: 150px; /* Adjust logo size */
+				height: auto;
+				border-radius: 5px; /* Optional styling for rounded corners */
+			}
+			
+			.education-item .content {
+				flex: 1; /* Ensures the text fills the remaining space */
+			}
+			
+			.education-item h2 {
+				margin: 0 0 10px;
+				font-size: 1.5rem;
+			}
+			
+			.education-item h4 {
+				margin: 0 0 10px;
+				font-size: 1.2rem;
+				color: #0073e6; /* Optional link color */
+			}
+			
+			.education-item p {
+				margin: 0;
+				line-height: 1.5;
+			}
+			
+
 /* Box */
 
 	.box {
@@ -2445,5 +2486,8 @@ input, select, textarea {
 					#copyright li:first-child {
 						margin-top: 0;
 					}
+
+					/* Education */
+
 
 	}
