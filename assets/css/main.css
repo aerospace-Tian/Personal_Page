@@ -282,11 +282,14 @@ input, select, textarea {
 
 		}
 
+
+
 /* Row */
 
 	.row {
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: center; /* Center the items horizontally */
 		box-sizing: border-box;
 		align-items: stretch;
 	}
@@ -1508,7 +1511,7 @@ input, select, textarea {
 /* Form */
 
 	form label {
-		color: #3e3e3e;
+		color: #803c7a;
 		font-weight: 700;
 		display: block;
 		margin: 0 0 0.5em 0;
