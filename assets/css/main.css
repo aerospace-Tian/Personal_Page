@@ -221,6 +221,10 @@ input, select, textarea {
 			font-size: 1.25em;
 		}
 
+
+p {
+		color: #000000; /* Sets text color to black */
+	}	
 /* Container */
 
 	.container {
