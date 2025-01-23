@@ -2042,11 +2042,14 @@ p {
 		text-align: center;
 	}
 
-		.wrapper.style1 {
-			background-image: none;
-			background-color: #fff;
-		}
+	.wrapper.style1 {
+		background-image: url("images/flight-1179587_noBG_画板\ 1.png");
+		background-size: cover; /* Ensures the image covers the whole area */
+		background-repeat: no-repeat; /* Prevents the image from repeating */
+		background-position: center; /* Centers the image */
+	}
 
+		
 		.wrapper.style2 {
 			background-color: #fafafa;
 			text-shadow: 1px 1px 0px #fff;
@@ -2081,6 +2084,8 @@ p {
 				.wrapper.style4 form textarea:focus {
 					background: #252525;
 				}
+
+			
 
 /* Nav */
 
